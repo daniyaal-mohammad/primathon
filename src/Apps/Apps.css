@@ -1,0 +1,22 @@
+.mainApp {
+  height: 635px;
+  width: 100%;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .mainApp {
+    height: 768px;
+    padding: 0px 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .mainApp {
+    height: 610px;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: row;
+  }
+}

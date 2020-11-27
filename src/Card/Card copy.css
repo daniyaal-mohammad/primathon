@@ -1,0 +1,56 @@
+.mainCard {
+  position: relative;
+  box-sizing: border-box;
+  width: 315px;
+  height: 450px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+  background-color: #fff;
+}
+.title {
+  color: #ffcc09;
+  margin: 30px 30px 8px 30px;
+}
+.content {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0px 30px;
+  font-weight: 400;
+}
+p {
+  padding: 15px 30px 25px 30px;
+}
+a {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-weight: 700;
+}
+a:hover {
+  color: #ffcc09;
+}
+.container {
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  right: 0px;
+  bottom: 0px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .mainCard {
+    position: relative;
+    width: 100%;
+  }
+  p {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .container {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+}
